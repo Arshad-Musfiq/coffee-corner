@@ -1,0 +1,72 @@
+/* Custom CSS */
+/* Navbar */
+.navbar {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-brand {
+  color: #fff;
+  font-weight: bold;
+}
+/* Navbar Toggle Button Color */
+.navbar-toggler-icon {
+  color: rgb(213, 155, 141); /* Change to your desired color */
+  font-weight: bolder;
+}
+
+/* Image Slider */
+.carousel-item img {
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Product Cards */
+.card {
+  margin-bottom: 20px;
+}
+.card img {
+  width: 208px;
+  height: 138px;
+}
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-content h5 {
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin-bottom: 5px;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: translateY(-3px);
+}
